@@ -1,5 +1,54 @@
-h1 {
-  color: brown;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
+:root {
+  --branding-color: #6c63ff;
+  --text-font-family: "Inter", sans-serif;
+  --bottom-font-family: "Poppins", sans-serif;
+  --bottom-text-color: white;
+  --banner-background-color: #ececf3;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: var(--text-font-family);
+  color: #272142;
+}
+
+.header {
+  background-color: var(--banner-background-color);
+  text-align: center;
+  padding: 108px 329px 176px 300px;
+}
+
+.header h1 {
+  font-size: 96px;
+  font-weight: bold;
+  line-height: 18px;
+}
+
+.header p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  line-height: 18px;
+}
+
+.header h2 {
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 80px;
+}
+
+.btn-branding {
+  background-color: var(--branding-color);
+  font-size: 18px;
+  color: var(--bottom-text-color);
+  font-family: var(--bottom-font-family);
+  border-radius: 4px;
+  line-height: 200px;
+  padding: 18px 46px;
+  text-decoration: none;
 }
