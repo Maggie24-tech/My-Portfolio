@@ -1,9 +1,15 @@
 :root {
-  --branding-color: #6c63ff;
+  --bottom-color: #6c63ff;
   --text-font-family: "Inter", sans-serif;
   --bottom-font-family: "Poppins", sans-serif;
   --bottom-text-color: white;
   --banner-background-color: #ececf3;
+}
+
+body {
+  max-width: 100%;
+  display: block;
+  margin: 0;
 }
 
 h1,
@@ -26,7 +32,7 @@ p {
 .header h1 {
   font-size: 96px;
   font-weight: bold;
-  line-height: 18px;
+  line-height: 1.8;
 }
 
 .header p {
@@ -34,21 +40,92 @@ p {
   font-weight: bold;
   margin: 0;
   line-height: 18px;
+  text-align: center;
 }
 
 .header h2 {
   font-size: 24px;
   font-weight: normal;
-  line-height: 80px;
+
+  line-height: 2;
+}
+
+h2 {
+  font-size: 64px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 26px;
+  font-weight: bold;
+  margin: 100px 0 127px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 30px;
+  text-align: justify;
 }
 
 .btn-branding {
-  background-color: var(--branding-color);
+  background-color: var(--bottom-color);
   font-size: 18px;
   color: var(--bottom-text-color);
   font-family: var(--bottom-font-family);
   border-radius: 4px;
-  line-height: 200px;
-  padding: 18px 46px;
+  line-height: 27px;
+  padding: 12px 20px;
   text-decoration: none;
 }
+
+.btn-branding-outline {
+  font-size: 18px;
+  color: var(--bottom-color);
+  font-family: var(--bottom-font-family);
+  text-decoration: none;
+  line-height: 27px;
+  border: 1px solid var(--bottom-color);
+  padding: 12px 20px;
+  border-radius: 4px;
+}
+
+.img {
+width: 560px;
+height: 449px;
+border-radius: 12px;
+}
+
+.weather-app-image{
+position: relative;
+top: -360px;
+right: -66px;
+}
+
+.weather-app-desc {
+    position: relative;
+    left: -655px;
+   
+}
+
+.AI-Poem-Generator-desc {
+    position: relative;
+    right: -660px;
+    top: -440px;
+}
+
+
+.AI-Poem-Generator-Gp {
+position: relative;
+bottom: 255px;
+}
+
+
+
+
+
+**//body {
+  width: 1440px;
+  height: 2482px;
+
+
