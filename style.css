@@ -46,7 +46,6 @@ p {
 .header h2 {
   font-size: 24px;
   font-weight: normal;
-
   line-height: 2;
 }
 
@@ -57,7 +56,7 @@ h2 {
 
 h3 {
   font-size: 26px;
-  font-weight: bold;
+  font-weight: 500;
   margin: 100px 0 127px;
 }
 
@@ -65,7 +64,6 @@ p {
   font-size: 16px;
   font-weight: normal;
   line-height: 30px;
-  text-align: justify;
 }
 
 .btn-branding {
@@ -90,42 +88,142 @@ p {
   border-radius: 4px;
 }
 
-.img {
-width: 560px;
-height: 449px;
-border-radius: 12px;
+.project-description {
+  padding: 120px 60px;
 }
 
-.weather-app-image{
-position: relative;
-top: -360px;
-right: -66px;
-}
+@media (max-width: 900px) {
+  body {
+    max-width: 100%;
+    display: block;
+    margin-bottom: 300px;
+  }
 
-.weather-app-desc {
+  .project-description {
+    padding: 20px;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 15px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  .header h1 {
+    font-size: 43px;
+    text-align: left;
+    white-space: nowrap;
     position: relative;
-    left: -655px;
-   
-}
+    left: -78px;
+  }
 
-.AI-Poem-Generator-desc {
+  .header h2 {
+    font-size: 16px;
+    white-space: nowrap;
     position: relative;
-    right: -660px;
-    top: -440px;
+    left: -60px;
+  }
+
+  .header p {
+    font-size: 20px;
+    white-space: nowrap;
+    position: relative;
+    right: -70px;
+  }
+
+  .btn-branding {
+    white-space: nowrap;
+    position: relative;
+    right: -20px;
+  }
+
+  .header {
+    padding-left: 150px;
+  }
+
+  .text-center,
+  .homepage-main {
+    position: relative;
+    right: -20px;
+  }
 }
 
+@media (width: 768px) {
+  .header h1 {
+    text-align: center;
+  }
 
-.AI-Poem-Generator-Gp {
-position: relative;
-bottom: 255px;
+  .header h2 {
+    text-align: center;
+  }
+
+  .header p {
+    text-align: center;
+  }
+
+  .btn-branding {
+    text-align: center;
+  }
+
+  .header {
+    margin: 0;
+    padding-right: 60px;
+    padding: 108px 500px 176px 300px;
+  }
 }
 
+@media (width: 1366px) {
+  body {
+    margin-bottom: 200px;
+  }
+  .header h1 {
+    white-space: nowrap;
+    text-align: center;
+    position: relative;
+    right: 60px;
+  }
 
+  .homepage-weather {
+    position: relative;
+    right: 90px;
+  }
+}
 
+@media (width: 1024px) {
+  body {
+    margin-bottom: 600px;
+  }
 
+  h3 {
+    padding-top: 40px;
+  }
 
-**//body {
-  width: 1440px;
-  height: 2482px;
+  .header h1 {
+    white-space: nowrap;
+    text-align: center;
+    position: relative;
+    right: 190px;
+  }
 
+  .header h2 {
+    white-space: nowrap;
+  }
 
+  .img-fluid {
+    position: relative;
+    bottom: -120px;
+  }
+
+  .homepage-weather {
+    position: relative;
+    top: -60px;
+  }
+
+  .homepage-AI {
+    position: relative;
+    top: -180px;
+  }
+}

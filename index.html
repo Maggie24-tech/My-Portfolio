@@ -11,6 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+
     <script
       src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -34,15 +35,19 @@
       <p>Hi I'm</p>
       <h1>Magdalene Nsiah</h1>
       <h2 class="mb-5">Frontend Developer, based in Colorado.</h2>
-      <a href="#" class="btn btn-branding">Get Started</a>
+      <div>
+        <a href="#" class="btn btn-branding">Get Started</a>
+      </div>
     </div>
-    <h3 class="text-center">Check out some of the projects I have created</h3>
-
+    <h3 class="text-center m-8">
+      Check out some of the projects I have created
+    </h3>
+<div class="homepage-main">
+  <div class="homepage-weather">
     <div class="container">
-      <div class="row">
-        <div class="col-6"></div>
-        <div class="col-6">
-          <span class="weather-app-desc">
+      <div class="row mb-5">
+        <div class="col">
+          <div class="project-description">
             <h2 class="mb-5">Weather App</h2>
             <p class="mb-5 text-muted">
               Far far away, behind the word mountains, far from the countries
@@ -50,34 +55,34 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="btn btn-branding-outline"> View project </a>
-          </span>
-          <span class="weather-app-image">
-            <img src="Images/weather-app.png" class="img" alt="" />
-          </span>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-6"></div>
-        <div class="AI-Poem-Generator-Gp">
-          <span class="AI-Poem-Generator-image">
-            <img src="Images/AI-Poem-Generator.png" class="img" alt="" />
-          </span>
-          <div class="col-6">
-            <span class="AI-Poem-Generator-desc">
-              <h2 class="mb-5">AI Poem Generator</h2>
-              <p class="mb-5 text-muted">
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts. Separated
-                they live in Bookmarksgrove right at the coast of the Semantics,
-                a large language ocean. A small river named Duden flows by
-              </p>
-              <a href="#" class="btn btn-branding-outline"> View project </a>
-            </span>
+            <a href="#" class="btn btn-branding-outline">View project</a>
           </div>
+          </div>
+            <div class="col d-none d-lg-block">
+          <img src="Images/weather-app.png" class="img-fluid" alt="" />
+            </div>
         </div>
       </div>
     </div>
+<div class="homepage-AI">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col d-none d-lg-block">
+          <img src="Images/AI-Poem-Generator.png" class="img-fluid" alt="" />
+        </div>
+        <div class="col">
+          <div class="project-description">
+            <h2 class="mb-5">AI-Poem-Generator</h2>
+            <p class="mb-5 text-muted">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts. Separated
+              they live in Bookmarksgrove right at the coast of the Semantics, a
+              large language ocean. A small river named Duden flows by
+            </p>
+            <a href="#" class="btn btn-branding-outline">View project</a>
+          </div>
+        </div>
+        </div>
+        </div>
   </body>
 </html>
