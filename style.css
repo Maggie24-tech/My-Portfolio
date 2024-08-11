@@ -96,12 +96,12 @@ p {
 /*About me */
 
 .img-text {
-  line-height: 140px;
-  font-size: 100px;
+  line-height: 108px;
+  font-size: 80px;
   text-align: center;
   font-family: var(--text-font-family);
   position: relative;
-  left: -400px;
+  left: -300px;
   bottom: -250px;
 }
 
