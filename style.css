@@ -96,12 +96,12 @@ p {
 /*About me */
 
 .img-text {
-  line-height: 92px;
-  font-size: 80px;
+  line-height: 140px;
+  font-size: 100px;
   text-align: center;
   font-family: var(--text-font-family);
   position: relative;
-  left: -300px;
+  left: -400px;
   bottom: -250px;
 }
 
@@ -110,7 +110,7 @@ mark {
 }
 
 .card-title {
-  font-size: 38px;
+  font-size: 45px;
   font-family: var(--text-font-family);
   font-weight: bold;
 }
