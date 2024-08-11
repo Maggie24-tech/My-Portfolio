@@ -90,6 +90,23 @@ p {
 
 .project-description {
   padding: 120px 60px;
+  font-size: 65px;
+}
+
+/*About me */
+
+.card-text {
+  line-height: 75px;
+  font-size: 64px;
+  text-align: center;
+  font-family: var(--text-font-family);
+  position: relative;
+  left: -300px;
+  bottom: -200px;
+}
+
+mark {
+  background-color: #94b5b3;
 }
 
 @media (max-width: 900px) {
