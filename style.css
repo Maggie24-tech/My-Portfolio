@@ -163,6 +163,11 @@ mark {
   margin: 30px;
 }
 
+/*Contact me*/
+.contact {
+  color: red;
+}
+
 @media (max-width: 900px) {
   body {
     max-width: 100%;
