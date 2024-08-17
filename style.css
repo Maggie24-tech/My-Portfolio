@@ -10,6 +10,7 @@ body {
   max-width: 100%;
   display: block;
   margin: 0;
+  margin-bottom: 60px;
 }
 
 h1,
@@ -81,6 +82,11 @@ p {
   text-decoration: none;
 }
 
+.btn-branding:hover {
+  background-color: var(--bottom-color);
+  color: var(--bottom-text-color);
+}
+
 .btn-branding-outline {
   font-size: 18px;
   color: var(--bottom-color);
@@ -90,6 +96,12 @@ p {
   border: 1px solid var(--bottom-color);
   padding: 12px 20px;
   border-radius: 4px;
+  transition: all 150ms ease-in-out;
+}
+
+.btn-branding-outline:hover {
+  background-color: var(--bottom-color);
+  color: var(--bottom-text-color);
 }
 
 .project-description {
@@ -114,7 +126,7 @@ mark {
 }
 
 .card-title {
-  font-size: 45px;
+  font-size: 34px;
   font-family: var(--text-font-family);
   font-weight: bold;
 }
@@ -139,7 +151,7 @@ mark {
 
 /*project*/
 .content-container {
-  padding: 160px 20px;
+  padding: 30px 20px;
 }
 
 .content h1 {
@@ -160,21 +172,56 @@ mark {
 }
 
 .content p {
-  font-size: 14px;
+  font-size: 17px;
 }
 
 .content {
   margin: 30px;
 }
 
-/*Contact me*/
+.project-btn {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.project-img {
+  transition: all 150ms ease-in-out;
+}
+
+.project-img:hover {
+  transform: scale(0.9);
+}
+
+.coming-soon {
+  opacity: 0.1;
+  border: 4px solid gray;
+}
+
+.project img:hover {
+  transform: scale(1.5);
+}
+
+/*contact*/
 .contact {
-  color: red;
+  padding: 40px 0 200px 100px;
+}
+
+.contact p {
+  padding-bottom: 40px;
+}
+
+.contact h3 {
+  color: #6c63ff;
+}
+
+.address,
+.email {
+  padding-right: 8px;
 }
 
 /*Header*/
 nav {
-  padding: 20pxd 0;
+  padding: 20px 0;
 }
 
 nav ul {
@@ -200,6 +247,31 @@ nav li.active a {
   color: var(--bottom-color);
 }
 
+.light-switch {
+  background-color: gray;
+  padding: 8px 12px;
+  color: white;
+  border-radius: 6px;
+  margin-left: 30px;
+}
+
+.dark {
+  background: linear-gradient(
+    180.3deg,
+    rgb(221, 221, 221) 5.5%,
+    rgb(110, 136, 161) 90.2%
+  );
+}
+
+.dark .light-switch {
+  background-color: white;
+  padding: 8px 12px;
+  color: black;
+  border-radius: 6px;
+  margin-left: 30px;
+}
+
+/*Footer*/
 footer .contact-box {
   background-color: var(--banner-background-color);
   padding: 30px 120px;
@@ -229,7 +301,7 @@ footer i:hover {
   body {
     max-width: 100%;
     display: block;
-    margin-bottom: 300px;
+    margin-bottom: 230px;
   }
 
   .project-description {
@@ -288,8 +360,56 @@ footer i:hover {
     right: -20px;
   }
 
+  /*About page*/
+  .card-title {
+    font-size: 24px;
+    margin-left: 19px;
+  }
+
+  .card-text {
+    margin: 0 20px;
+    font-size: 14px;
+  }
+
+  .aboutpage-para {
+    margin: 0 10px;
+    padding: 0 20px;
+  }
+
+  .abooutpage-about {
+    text-align: center;
+  }
+
+  .aboutpage-img {
+    margin: 30px 2px 10px 20px;
+    height: 600;
+  }
+
+  /*Contact*/
+  .content h1 {
+    font-size: 48px;
+    margin-left: -60px;
+  }
+  .contact {
+    padding: 40px 0 200px 50px;
+  }
+
+  .inbox {
+    position: relative;
+    top: -4px;
+    right: 2px;
+  }
+
+  /*Projects*/
+  .content .project-header {
+    font-size: 32px;
+    line-height: 42px;
+    padding-left: 30px;
+  }
+
   footer .contact-box {
     padding: 30px;
+    margin-top: 60px;
   }
 
   .btn {
@@ -298,6 +418,11 @@ footer i:hover {
 
   footer .contact-box p {
     font-size: 14px;
+  }
+
+  .source {
+    position: relative;
+    right: 20px;
   }
 }
 
@@ -323,6 +448,12 @@ footer i:hover {
     padding-right: 60px;
     padding: 108px 500px 176px 300px;
   }
+
+  body {
+    max-width: 100%;
+    display: block;
+    margin-bottom: 300px;
+  }
 }
 
 @media (width: 1366px) {
@@ -339,6 +470,11 @@ footer i:hover {
   .homepage-weather {
     position: relative;
     right: 90px;
+  }
+  body {
+    max-width: 100%;
+    display: block;
+    margin-bottom: 300px;
   }
 }
 
@@ -375,5 +511,11 @@ footer i:hover {
   .homepage-AI {
     position: relative;
     top: -180px;
+  }
+
+  body {
+    max-width: 100%;
+    display: block;
+    margin-bottom: 625px;
   }
 }

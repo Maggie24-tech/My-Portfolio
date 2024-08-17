@@ -31,81 +31,90 @@
     />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body class="dark">
      <div class="container">
         <nav class="d-flex justify-content-between">
       <h1><a href="/" title="Homepage">MN</a></h1>
       <ul>
         <li><a href="/" title="Homepage">Home</a></li>
-         <li><a href="/about.html" title="About Magdalene Nsiah page">About</a></li> 
+         <li><a href="/about.html" title=" Magdalene Nsiah About page">About</a></li> 
          <li class="active"><a href="/projects.html" title="Magdalene Nsiah Projects page">Projects</a></li> 
-         <li><a href="/contact.html" title="Magdalene Nsiah Contant page">Contact</a></li>
-      </ul>
+         <li><a href="/contact.html" title="Magdalene Nsiah Contact page">Contact</a></li>
+      <li class="light-switch"><i class="fa-regular fa-moon"></i></li>
+        </ul>
     </nav>
     </div>
     <h2 class="text-center pt-5 mb-0">Projects</h2>
     <div class="content-container container">
       <div class="content">
-        <h1 class="pb-5 mb-5">Take a look at what I've <br />been working on!</h1>
-
+        <h1 class="pb-5 mb-5 project-header">Take a look at what I've <br />been working on!</h1>
         <div class="row">
           <div class="col-md-6 mb-4">
-            <img src="Images/yogurt.png" class="img-fluid rounded" alt="Travel website preview" />
-            <h3 class="text-center">Travel Website</h3>
+            <img src="Images/world-clock.png" class="img-fluid rounded project-img" alt="World Clock app preview " />
+            <h3 class="text-center">World clock </h3>
             <p class="text-center text-muted">Built with HTML and CSS</p>
             <div>
-        <a href="/about.html" class="btn btn-branding text-center">Get Started</a>
+              <div class="project-btn">
+        <a href="https://mn-worldclock.netlify.app/" target="_blank" class="btn btn-branding">Get Started</a>
+      </div>
       </div>
           </div>
           <div class="col-md-6 mb-4">
-            <img src="Images/images copy.png" class="img-fluid rounded" alt="World Clock app preview" />
-            <h3 class="text-center">World clock</h3>
-            <p class="text-center text-muted">
-              Built with HTML, CSS, and Javascript
-            </p>
-            <div>
-        <a href="/about.html" class="btn btn-branding">Get Started</a>
-      </div>
-          </div>
-          <div class="col-md-6 mb-4">
-            <img src="Images/Landing-page.png" class="img-fluid rounded" alt="Landing page preview" />
+            <img src="Images/Landing-page.png" class="img-fluid rounded project-img" alt="Landing page preview" />
             <h3 class="text-center">Landing Page</h3>
             <p class="text-center text-muted">
               Built with HTML, CSS, and Javascript
             </p>
-            <div>
-        <a href="/about.html" class="btn btn-branding">Get Started</a>
+            <div class="project-btn">
+              <div>
+        <a href="https://ghanacuisine.netlify.app/" target="_blank" class="btn btn-branding">Get Started</a>
+      </div>
       </div>
           </div>
           <div class="col-md-6 mb-4">
-            <img src="Images/AI-Poem-Generator.png" class="img-fluid rounded" alt="AI Poem Generator app preview" />
+             <img src="Images/AI-Poem-Generator.png" class="img-fluid rounded project-img" alt="AI Poem Generator app preview" />
             <h3 class="text-center">AI Poem Generator</h3>
             <p class="text-center text-muted">
               Built with HTML, CSS, and Javascript
             </p>
             <div>
-        <a href="/about.html" class="btn btn-branding">Get Started</a>
+               <div class="project-btn">
+        <a href="https://aipoemsgenerator.netlify.app/" target="_blank" class="btn btn-branding">Get Started</a>
+      </div>
+      </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <img src="Images/yogurt.png" class="img-fluid rounded project-img" alt="Travel website preview" />
+            <h3 class="text-center">Travel Website</h3>
+            <p class="text-center text-muted">
+              Built with HTML, CSS, and Javascript
+            </p>
+            <div>
+               <div class="project-btn">
+        <a  class="btn btn-branding">Get Started</a>
+      </div>
       </div>
           </div>
         <div class="col-md-6 mb-4">
-          <img src="Images/images copy.png" class="img-fluid rounded" alt="React Weather app preview" />
+          <img src="Images/images copy.png" class="img-fluid rounded project-img" alt="React Weather app preview" />
           <h3 class="text-center">React Weather App</h3>
           <p class="text-center text-muted">
             Built with HTML, CSS, and Javascript
           </p>
 <div>
-        <a href="/about.html" class="btn btn-branding">Get Started</a>
+  <div class="project-btn">
+        <a  class="btn btn-branding">Get Started</a>
       </div>
         </div>
+        </div>
         <div class="col-md-6 mb-4">
-            <img src="Images/images copy.png" class="img-fluid rounded" alt="Project coming soon" />
+            <img src="Images/images copy.png" class="img-fluid rounded coming-soon" alt="Project coming soon" />
             <h3 class="text-center">Coming Soon</h3>
             <p class="text-center text-muted">
               Built with HTML, CSS, and Javascript
             </p>
             <div>
-        <a href="/about.html" class="btn btn-branding">Get Started</a>
-      </div>
+          </div>
           </div>
       </div>
     </div>
@@ -121,7 +130,8 @@
           </div>
           <div class="text-center mt-5 pt-5">
           <p class="mb-4 source">This website was coded by Magdalene Nsiah and is <a href="https://github.com/Maggie24-tech/My-Portfolio" title="Github">open-sourced</a></p>
-          <a href="https://www.linkedin.com/in/magdalene-nsiah/" title="Linkedin" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/magdalene-nsiah/" title="Linkedin" target="_blank"><i class="fa-brands fa-linkedin"></i></i></a>
         </footer>
+        <script src="script.js"></script>
   </body>
 </html>
