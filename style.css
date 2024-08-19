@@ -304,6 +304,12 @@ footer i:hover {
     margin-bottom: 230px;
   }
 
+  .main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .project-description {
     padding: 20px;
     text-align: center;
