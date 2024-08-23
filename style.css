@@ -338,7 +338,6 @@ footer i:hover {
 
   h3 {
     font-size: 15px;
-    margin: 50px;
   }
 
   h4 {
@@ -389,7 +388,7 @@ footer i:hover {
 
   .aboutpage-img {
     height: 600;
-    margin: 70px 15px 0 15px;
+    margin: 70px 14px 0 14px;
   }
 
   /*Contact*/
