@@ -411,17 +411,13 @@ footer i:hover {
   }
 
   footer .contact-box {
-    padding: 30px 15px;
-    margin-top: 60px;
-  }
-
-  footer .project-footer {
-    padding: 30px 15px;
+    padding: 30px 20px 30px 30px;
   }
 
   footer .contact-box p {
     font-size: 14px;
   }
+
   .footer-para {
     display: block;
   }
