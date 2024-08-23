@@ -35,42 +35,42 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body class="dark">
+  <body>
      <div class="container">
-        <nav class="d-flex justify-content-between">
+        <nav class="d-flex  justify-content-between fixed-top">
       <h1><a href="/" title="Homepage">MN</a></h1>
       <ul>
         <li><a href="/" title="Homepage">Home</a></li>
          <li class="active"><a href="/about.html" title=" Magdalene Nsiah About page">About</a></li> 
          <li><a href="/projects.html" title="Magdalene Nsiah Projects page">Projects</a></li> 
          <li><a href="/contact.html" title="Magdalene Nsiah Contact page">Contact</a></li>
-       <li class="light-switch"><i class="fa-regular fa-moon"></i></li>
         </ul>
     </nav>
     </div>
 
-    <div class="abouthomepage-img-text">
-      <div class="aboutpage-img">
+        <div class="aboutpage-main-img">
         <img
           src="Images/banner.png"
           width="1266"
-          height="1200"
+          height="700"
           class="card-img d-none d-md-block"
           alt="magdalene nsiah photo"
         />
+        </div>
+          <div class="aboutpage-img">
         <img src="Images/banner(small).png" alt="magdalene nsiah photo" class="card-img d-block d-md-none">
       </div>
-      <div class="card-img-overlay d-none d-lg-block">
-        <p class="img-text">
+
+        <p class="img-text d-none d-lg-block">
           I want to <mark>create</mark> <br />things that <u>inspire</u>.
         </p>
-      </div>
-    </div>
-
-    <h2 class="text-center mt-5 abooutpage-about">About me</h2>
-
+    
+<div class="aboutpage-about-me">
+    <h2 class="text-center aboutpage-about">About me</h2>
+</div>
     <div class="aboutpage-para">
       <div class="row">
-        <div class="col-sm-4 mb-2 mb-sm-0 p-4">
+        <div class="col-sm-4 mb-2 mb-sm-0">
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">Background</h5>
@@ -79,52 +79,63 @@
                 lobortis consectetur volutpat commodo mi suspendisse odio. Id ac
                 lorem maecenas rhoyncus lobortis turpis morbi. Id ut lobortis
                 consectetur volutpat commodo mi suspendisse odio. Id ac lorem
-                maecenas rhoncus lobortis turpis morbi. Id ut lobortis
-                consectetur volutpat commodo mi suspendisse odio. Id ac lorem
-                maecenas rhoncus lobortis turpis morbi. Id ut lobortis
-                consectetur volutpat commodo mi suspendisse odio.
+                maecenas rhoncus lobortis turpis morbi. 
               </p>
             </div>
           </div>
         </div>
 
-        <div class="col-sm-4 mb-3 mb-sm-0 p-4">
+        <div class="col-sm-4 mb-3 mb-sm-0 ">
           <div class="card">
+             
             <div class="card-body">
-              <h5 class="card-title">Journey</h5>
+               <section class="grid">
+              <h5 class="card-title">Skills</h5>
               <p class="card-text">
                 Id ac lorem maecenas rhoncus lobortis turpis morbi. Id ut
                 lobortis consectetur volutpat commodo mi suspendisse odio. Id ac
                 lorem maecenas rhoncus lobortis turpis morbi. Id ut lobortis
                 consectetur volutpat commodo mi suspendisse odio. Id ac lorem
-                maecenas rhoncus lobortis turpis morbi. Id ut lobortis
-                consectetur volutpat commodo mi suspendisse odio. Id ac lorem
-                maecenas rhoncus lobortis turpis morbi. Id ut lobortis
-                consectetur volutpat commodo mi suspendisse odio.
+                maecenas rhoncus lobortis turpis morbi. 
               </p>
+  
             </div>
           </div>
         </div>
-
-        <div class="col-sm-4 p-4">
+        <div class="col-sm-4 ">
           <div class="card">
+              <section class="grid">
             <div class="card-body">
-              <h5 class="card-title">Future</h5>
+              <h5 class="card-title">Tools</h5>
               <p class="card-text">
                 Id ac lorem maecenas rhoncus lobortis turpis morbi. Id ut
                 lobortis consectetur volutpat commodo mi suspendisse odio. Id ac
                 lorem maecenas rhoncus lobortis turpis morbi. Id ut lobortis
                 consectetur volutpat commodo mi suspendisse odio. Id ac lorem
-                maecenas rhoncus lobortis turpis morbi. Id ut lobortis
-                consectetur volutpat commodo mi suspendisse odio. Id ac lorem
-                maecenas rhoncus lobortis turpis morbi. Id ut lobortis
-                consectetur volutpat commodo mi suspendisse odio.
+                maecenas rhoncus lobortis turpis morbi. 
               </p>
             </div>
           </div>
         </div>
      </div>
      </div>
+
+
+     <div class="resume-btn">
+ <a href="#get-started" class="btn btn-branding get-started">View Resume</a>
+     </div>
+ 
+ <div class="cert">
+      
+     <h5>Certifications - SheCodes Program</h5>
+  <ul>
+   <a href=""> <li> Frontend Developer</li></a>
+<a href=""> <li>Advanced React Development</li></a>
+<a href="">  <li>Advanced Responsive Web Development</li> </a>
+<a href=""><li>Advanced Web Development</li></a>
+  </ul>
+</div>
+
        <footer class="container">
           <div class="contact-box d-flex justify-content-between">
             <div>
@@ -136,9 +147,9 @@
           </div>
           </div>
           <div class="text-center mt-5 pt-5">
-          <p class="mb-4 source">This website was coded by Magdalene Nsiah and is <a href="https://github.com/Maggie24-tech/My-Portfolio" title="Github">open-sourced</a></p>
+          <p class="mb-4 source">This website was built by Magdalene Nsiah and is <a href="https://github.com/Maggie24-tech/My-Portfolio" target="_blank" title="Github">open-sourced</a></p>
           <a href="https://www.linkedin.com/in/magdalene-nsiah/" title="Linkedin" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/Maggie24-tech" title="Github" target="_blank"><i class="fa-brands fa-github"></i></a>
         </footer>
-         <script src="script.js"></script>
   </body>
 </html>
