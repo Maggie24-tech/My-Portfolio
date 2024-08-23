@@ -244,7 +244,7 @@ mark {
 
 /*contact*/
 .contact {
-  padding: 40px 0 0 100px;
+  padding: 40px 0 0 0;
   text-align: center;
 }
 
@@ -325,7 +325,7 @@ footer .contact {
   body {
     max-width: 100%;
     display: block;
-    margin-bottom: 230px;
+    margin-bottom: 90px;
   }
 
   .project-description {
@@ -403,7 +403,7 @@ footer .contact {
     text-align: center;
   }
   .contact {
-    padding: 40px 0 0 50px;
+    padding: 40px 0 0 0;
   }
 
   .inbox {
