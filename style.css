@@ -324,12 +324,12 @@ footer i:hover {
   }
 
   .project-description {
-    padding: 20px;
+    padding: 20px 0;
     text-align: center;
   }
 
   nav {
-    padding: 10px 25px 10px 20px;
+    padding: 10px 15px 10px 15px;
   }
 
   h2 {
@@ -345,8 +345,8 @@ footer i:hover {
   }
 
   .header {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .header h1 {
@@ -411,7 +411,7 @@ footer i:hover {
   }
 
   footer .contact-box {
-    padding: 30px;
+    padding: 30px 15px;
     margin-top: 60px;
   }
 
@@ -428,26 +428,17 @@ footer i:hover {
 }
 
 @media (width: 768px) {
-  .header h1 {
-    text-align: center;
-  }
-
-  .header h2 {
-    text-align: center;
-  }
-
-  .header p {
-    text-align: center;
-  }
-
+  .header h1,
+  .header h2,
+  .header p,
   .btn-branding {
     text-align: center;
   }
 
   .header {
     margin: 0;
-    padding-right: 60px;
-    padding: 108px 500px 176px 300px;
+    padding-right: 15px;
+    padding: 108px 15px 176px 15px;
   }
 
   body {
