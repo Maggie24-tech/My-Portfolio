@@ -134,15 +134,20 @@ mark {
 }
 
 .card-title {
-  font-size: 34px;
+  font-size: 26px;
   font-family: var(--text-font-family);
   font-weight: bold;
+  text-align: center;
+  line-height: 4;
 }
 
 .card-text {
-  font-size: 20px;
+  font-size: 18px;
   font-family: var(--text-font-family);
   font-weight: normal;
+  line-height: 2;
+  text-align: center;
+  padding: 0 60px;
 }
 
 .aboutpage-main-img {
@@ -370,11 +375,13 @@ footer i:hover {
   /*About*/
   .card-title {
     font-size: 24px;
+    text-align: center;
   }
 
   .card-text {
-    text-align: left;
+    text-align: center;
     font-size: 14px;
+    padding: 0 40px;
   }
 
   .aboutpage-para {
