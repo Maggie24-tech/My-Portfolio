@@ -169,9 +169,22 @@ mark {
   text-align: center;
 }
 
+.resu {
+  transition: all 150ms ease-in-out;
+}
+
+.resu:hover {
+  background-color: white;
+  color: var(--bottom-color);
+  border-color: var(--bottom-color);
+}
 .cert {
   text-align: center;
   margin: 100px 0 200px;
+}
+
+.cert-li:hover {
+  text-shadow: 0px 1px 12px rgb(175, 172, 172);
 }
 
 .cert h5 {
@@ -185,7 +198,12 @@ mark {
 
 .cert a {
   text-decoration: none;
-  color: #1479a8;
+  color: var(--bottom-color);
+  font-weight: 450;
+}
+
+.cert a:hover {
+  font-weight: bold;
 }
 
 /*project*/
