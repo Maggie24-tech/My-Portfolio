@@ -306,7 +306,6 @@ nav a {
   transform: all 100ns ease-in-out;
 }
 
-nav a:hover,
 nav li.active a {
   color: var(--bottom-color);
   text-decoration: underline;
