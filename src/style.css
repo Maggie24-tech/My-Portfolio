@@ -322,11 +322,6 @@ nav li.active a {
   top: 11px;
 }
 
-.light-switch:hover {
-  border: 5px solid rgb(189, 185, 185);
-  border-radius: 50px;
-}
-
 /* Hide default HTML checkbox */
 .switch input {
   opacity: 0;
@@ -363,8 +358,8 @@ input:checked + .slider {
   background-color: var(--bottom-color);
 }
 
-input:focus + .slider {
-  box-shadow: 0 0 1px var(--bottom-color);
+input:focus + .slider:hover {
+  box-shadow: 0 0 7px rgb(106, 96, 96);
 }
 
 input:checked + .slider:before {
