@@ -303,12 +303,16 @@ nav li {
 nav a {
   text-decoration: none;
   color: #272142;
-  transform: all 100ns ease-in-out;
+  transform: all 100ms ease-in-out;
 }
 
-nav li.active a {
+.active a {
   color: var(--bottom-color);
   text-decoration: underline;
+}
+
+nav a:hover {
+  color: var(--bottom-color);
 }
 
 /* The switch - the box around the slider */
